@@ -1,0 +1,256 @@
+/* ✅ FIRST: Import Google Fonts at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ✅ THEN: Tailwind core import (for v4) */
+@import "tailwindcss";
+
+/* ✅ Finally: Your global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color:#9e6747;
+    --secondary-color:#e62a65;
+    --text-color:#111;
+    --light-color:#666;
+    --black-color:#000;
+    --white-color:#fff;
+
+    --Playfair-font:"Playfair",serif;
+    --Nunito-font:"Nunito",sans-serif;
+
+    --transition-regular:.3s;
+    --transition-slow:.6s;
+}
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* ✅ prevent horizontal scroll */
+  scroll-behavior: smooth; /* optional: smooth scroll */
+}
+.btn{
+    background-color: var(--primary-color) !important;
+    color: var(--black-color) !important;
+    /* width: 150px !important; */
+    padding: 12px !important;
+    margin: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #843a10 !important;
+    color: #fff !important;
+    border-radius:35px !important;
+}
+.cart-count{
+  font-size: 20px;
+  display: flex !important; 
+  align-items: center !important; 
+  justify-content: center !important;
+  padding-bottom: 5px;
+  padding-right: 1px;
+  width:20px !important;
+  height:20px !important;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.nav-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: var(--Playfair-font);
+}
+.nav-links{
+    font-weight: 700;
+    transition: var(--transition-regular);
+    text-transform: uppercase;
+    font-family: var(--Nunito-font);
+}
+.nav-links:hover{
+    color: var(--primary-color);
+}
+/* signup model */
+.span{
+    color: var(--primary-color);
+    font-family: var(--Playfair-font);
+    text-decoration: underline;
+}
+.login-title{
+font-family: var(--Playfair-font);
+font-size: 1.5rem;
+font-weight: 700;
+}
+.close{
+    top: 2% !important;
+    right: 5% !important;
+}
+.form{
+    padding:5% !important;
+}
+.inp{
+    padding: 5px !important;
+}
+/* search modal */
+.search-title{
+font-family: var(--Playfair-font);
+font-size: 1.5rem;
+font-weight: 700;
+}
+.prod{
+     padding:5% !important;
+}
+.img{
+    padding:5% !important; 
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+}
+.form{
+    gap:6px;
+}
+/* popup modal */
+.rig{
+    padding: 5% !important;
+}
+.rih{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px !important;
+}
+.lf{
+    padding: 5% !important;
+}
+/* hero */
+.lef{
+    margin-top:65px;
+    padding: 5% !important;
+}
+.le{
+    margin-bottom: 3px !important;
+}
+.p-le{
+    margin-bottom: 6px !important;
+}
+.la{  
+    opacity: 0;
+    animation:anim-top .6s .3s forwards linear;
+}
+@keyframes anim-top {
+    0%{
+        transform: translateY(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/* banners */
+.ban-sec{ 
+    padding: 5%;
+}
+/* products */
+.pro{
+    padding:3% !important;     
+}
+/* .prl{
+    margin-left:-135px;
+    margin-top:-12px;
+}
+.prr{
+     margin-right:-135px;
+     margin-top:20px;
+} */
+.pd{
+    margin-right: 15px !important;
+}
+.c-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+/* cart */
+/* carttotals */
+.ti{
+    margin-top: 70px !important;
+    padding:20px;
+}
+.ct{
+    
+    padding:30px !important;
+    height: 20px !important;
+}
+.ca{
+    margin-top:-190px !important;
+}
+/* slide */
+.hero{
+   padding: 10px 40px 10px 10px;
+    /* width:60%;
+    height:auto; */
+    border-top-right-radius:600px;
+    
+}
+.over{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* about */
+.ab{
+position: relative !important;
+margin-top:65px;
+padding: 10px;
+}
+/* services */
+.ser{
+    margin-top: 50px;
+    padding: 2%;
+}
+.ser-im{
+    margin: auto!important;
+}
+/* get in touch */
+.to{
+    padding: 2%;
+    
+}
+.get{
+    margin: auto !important;
+}
+/* testimonials */
+.test{
+    background-color: #000;
+    opacity: 80px;
+}
+.tes{
+    margin-top:2px;
+    margin-bottom:20px;
+}
+/* shop */
+.shop{
+    padding: 3%;
+}
+/* contact */
+.co{
+    padding: 2%;
+}
+.form{
+    padding: 5%;
+}
+.fo{
+    padding-top:20px;
+}
+/* footer */
+.foot{
+   padding: 50px 50px 0 50px;
+    margin-top: 15px;
+}

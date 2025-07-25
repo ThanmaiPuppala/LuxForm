@@ -1,0 +1,194 @@
+[
+    {
+        "id":1,
+        "image":"images/furniture-1.png",
+        "secondImage":"images/furniture-1.png",
+        "name":"Modern White Bed",
+        "offerPrice":12334,
+        "price":22990
+    },
+    {
+        "id":2,
+        "image":"images/furniture-2.png",
+        "secondImage":"images/furniture-2.png",
+        "name":"Sponge Bed",
+        "offerPrice":10334,
+        "price":21990
+    },
+    {
+        "id":3,
+        "image":"images/furniture-3.png",
+        "secondImage":"images/furniture-3.png",
+        "name":"Bistro Chair",
+        "offerPrice":13944,
+        "price":25670
+    },
+    {
+        "id":4,
+        "image":"images/furniture-4.png",
+        "secondImage":"images/furniture-4.png",
+        "name":"Brown Sofa",
+        "offerPrice":14334,
+        "price":29840
+    },
+    {
+        "id":5,
+        "image":"images/furniture-5.png",
+        "secondImage":"images/furniture-5.png",
+        "name":" Bed lamp",
+        "offerPrice":13254,
+        "price":26540
+    },
+    {
+        "id":6,
+        "image":"images/furniture-6.png",
+        "secondImage":"images/furniture-6.png",
+        "name":"Chester chair",
+        "offerPrice":18934,
+        "price":34567
+    },
+    {
+        "id":7,
+        "image":"images/furniture-7.png",
+        "secondImage":"images/furniture-1.png",
+        "name":"slipper chair",
+        "offerPrice":22334,
+        "price":32990
+    },
+    {
+        "id":8,
+        "image":"images/furniture-8.png",
+        "secondImage":"images/furniture-8.png",
+        "name":"Windsor Chair",
+        "offerPrice":11334,
+        "price":24990
+    },
+    {
+        "id":9,
+        "image":"images/furniture-9.png",
+        "secondImage":"images/furniture-9.png",
+        "name":"sofa",
+        "offerPrice":12334,
+        "price":30990
+    },
+    {
+        "id":10,
+        "image":"images/furniture-10.png",
+        "secondImage":"images/furniture-10.png",
+        "name":"Cane Chair",
+        "offerPrice":10334,
+        "price":26890
+    },
+    {
+        "id":11,
+        "image":"images/furniture-11.png",
+        "secondImage":"images/furniture-11.png",
+        "name":"Rounded Table",
+        "offerPrice":17334,
+        "price":27990
+    },
+    {
+        "id":12,
+        "image":"images/furniture-12.png",
+        "secondImage":"images/furniture-12.png",
+        "name":"Study table",
+        "offerPrice":14334,
+        "price":27680
+    },
+    {
+        "id":13,
+        "image":"images/furniture-13.png",
+        "secondImage":"images/furniture-13.png",
+        "name":"Wooden Closet",
+        "offerPrice":13324,
+        "price":25120
+    },
+    {
+        "id":14,
+        "image":"images/furniture-14.png",
+        "secondImage":"images/furniture-14.png",
+        "name":"Swing Chair",
+        "offerPrice":18094,
+        "price":27810
+    },
+    {
+        "id":15,
+        "image":"images/furniture-15.png",
+        "secondImage":"images/furniture-15.png",
+        "name":"Lounge",
+        "offerPrice":17654,
+        "price":32110
+    },
+    {
+        "id":16,
+        "image":"images/furniture-16.png",
+        "secondImage":"images/furniture-16.png",
+        "name":"Wooden Lamp",
+        "offerPrice":10334,
+        "price":19860
+    },
+    {
+        "id":17,
+        "image":"images/furniture-17.png",
+        "secondImage":"images/furniture-17.png",
+        "name":"Wardrobe",
+        "offerPrice":18724,
+        "price":2765
+    },
+    {
+        "id":18,
+        "image":"images/furniture-18.png",
+        "secondImage":"images/furniture-18.png",
+        "name":"Glass Table",
+        "offerPrice":17632,
+        "price":32490
+    },
+    {
+        "id":19,
+        "image":"images/furniture-19.png",
+        "secondImage":"images/furniture-19.png",
+        "name":"Wooden Bench",
+        "offerPrice":18734,
+        "price":26590
+    },
+    {
+        "id":20,
+        "image":"images/furniture-20.png",
+        "secondImage":"images/furniture-20.png",
+        "name":"Master Bed",
+        "offerPrice":17134,
+        "price":27690
+    },
+    {
+        "id":21,
+        "image":"images/furniture-21.png",
+        "secondImage":"images/furniture-21.png",
+        "name":"Saddle Chair",
+        "offerPrice":11314,
+        "price":24190
+    },
+    {
+        "id":22,
+        "image":"images/furniture-22.png",
+        "secondImage":"images/furniture-22.png",
+        "name":"Table",
+        "offerPrice":12030,
+        "price":22000
+    },
+    {
+        "id":23,
+        "image":"images/furniture-23.png",
+        "secondImage":"images/furniture-23.png",
+        "name":"Zori chair",
+        "offerPrice":12334,
+        "price":22990
+    },
+    {
+        "id":24,
+        "image":"images/furniture-24.png",
+        "secondImage":"images/furniture-24.png",
+        "name":"Office chair",
+        "offerPrice":10034,
+        "price":25990
+    }
+]
