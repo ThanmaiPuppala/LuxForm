@@ -10,7 +10,6 @@ import { TiStarFullOutline } from 'react-icons/ti';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../../features/cartSlice';
 import { Link } from 'react-router-dom';
-
 const Bar = () => {
   const primaryColor='#9e6747'
   const [menuOpen,setMenuOpen]=useState(false)
@@ -112,13 +111,13 @@ setFiltered(result)
 
                     <form className='form flex flex-col gap-3 text-sm sm:text-base'>
                         <label htmlFor="name" className='form-label'>Name</label>
-                        <input type="text" placeholder="Enter Your Name" className=" inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
+                        <input type="text" placeholder="Enter Your Name" required className=" inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
 
                         <label htmlFor="email" className='form-label'>Email</label>
-                        <input type="email" placeholder="Enter Your Email" className=" inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
+                        <input type="email" placeholder="Enter Your Email" required className="inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
 
                         <label htmlFor="password" className='form-label'>Password</label>
-                        <input type="password" placeholder="Enter Your Password" className=" inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
+                        <input type="password" placeholder="Enter Your Password" required className=" inp w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9e6747]" />
 
                         <p className="text-[12px] text-center">
                         By SignUp, you agree to our <span className="span">Terms of services</span> & <span className="span">Privacy policy</span>
@@ -134,6 +133,7 @@ setFiltered(result)
                     </form> 
                     </div>
                 </div>
+                
             }
         
         {/* Search Model */}
