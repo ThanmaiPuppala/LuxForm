@@ -95,7 +95,7 @@ const Index = () => {
           <h3 className='le text-[#9e6747]  italic mb-2'>-Stylish Furnitures-</h3>
           <h1 className='le text-4xl sm:text-5xl lg:text-6xl font-semibold mb-2'>Sustainable Chairs <br /> for Every Space</h1>
           <p className='p-le text-gray-600 mb'>Discover premium furniture for every room in our LuxForm store. Browse modern sofas, elegant dining sets, and cozy bedroom collections with high-quality images and detailed descriptions.</p>
-          <button className='btn font-medium '>Our Collection</button>
+          <button className='btn font-medium'><a href="#collection">Our Collection</a></button>
         </div>
         {/* right */}
         <div className='flex justify-center'>
@@ -125,7 +125,7 @@ const Index = () => {
       </div>
      </section>
      {/* Products */}
-     <section className='py-20 px-4 max-w-screen-xl mx-auto'>
+     <section id='collection' className='py-20 px-4 max-w-screen-xl mx-auto'>
       <div className='text-center mb-10'>
         <div className='flex flex-col justify-center items-center'>
           <h2 className='text-[#9e6747] font-semibold'>-New Furniture-</h2>
@@ -142,7 +142,6 @@ const Index = () => {
           </button>
       </div>
           <h1 className='text-3xl sm:text-4xl font-semibold'>LATEST FURNITURE</h1>
-         
         </div>
       </div>
       
@@ -165,8 +164,8 @@ const Index = () => {
       >
         {products.map((item) => (
             <SwiperSlide key={item.id} className='pro'>
-              <div className=' sm:grid grid-cols-1 w-[270px] mx-auto '>
-              <div className=" pd relative group  bg-white rounded-lg p-4 border shadow-md hover:shadow-xl transition duration-300 md:gap-3">
+              <div className=' grid grid-cols-1 w-[270px]  '>
+              <div className=" pd relative group  bg-white rounded-lg p-4 border shadow-md hover:shadow-xl transition duration-300 md:gap-3 ">
                 
                 {/* Heart Icon */}
                 <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
