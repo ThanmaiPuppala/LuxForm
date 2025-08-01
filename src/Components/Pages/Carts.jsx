@@ -27,7 +27,7 @@ const Carts = () => {
       <div className="ab flex justify-center items-center bg-[#faf7f2]">
       <h1 className='text-3xl font-bold'>Cart</h1>
       </div>
-    <div className='flex flex-col'>
+    <div className='flex flex-col overflow-x-auto sm:overflow-visible'>
     <div className='ca w-full min-h-screen  flex justify-center items-center '>
       <div className='w-full max-w-6xl overflow-hidden min-h-[50vh]'>
         <div>
@@ -71,7 +71,7 @@ const Carts = () => {
        
     </div>
     {/* cart totals */}
-    <div className="ct  bg-gray-50 ">
+    <div className="ct bg-gray-50 px-4 py-6">
           <h3 className="text-xl font-semibold mt-2 text-center">Cart Totals</h3>
           <div className="flex justify-between mb-2">
             <span>Cart Subtotal</span>
